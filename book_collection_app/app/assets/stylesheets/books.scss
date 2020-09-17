@@ -1,0 +1,23 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+a, a:visited { color: #0000EE; }
+
+table {
+    width: 50%;
+}
+
+table, td, th {
+    border: 1px solid black;
+ }
+
+td, th {
+   text-align: center;
+   padding: 2%;
+   width: 25%;
+}
+
+.form-buttons {
+    margin: 2% 0%;
+}

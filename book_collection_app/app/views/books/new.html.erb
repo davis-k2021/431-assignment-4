@@ -1,0 +1,16 @@
+<br>
+<%= link_to("Return to Book Collection", books_path) %>
+
+<div>
+  <h2>Create Book</h2>
+
+  <%= form_for(@book, :url => books_path) do |f| %>
+
+    <%= render(:partial => 'form', :locals => {:f => f}) %>
+
+    <div class="form-buttons">
+      <%= f.submit("Create Book") %>
+    </div>
+
+  <% end %>
+</div>
